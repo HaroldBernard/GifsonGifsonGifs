@@ -6,7 +6,7 @@ function displayGif() {
     $("#gifs-here").css("background-image", "none")
     $("#form-here").css("background-image", "url(assets/images/wizard.gif)")
     var gif = $(this).attr("data-name")
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=iapuI8UCW4JJr1pl8FWFFekj28q5ms0G&limit=9"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=iapuI8UCW4JJr1pl8FWFFekj28q5ms0G&limit=9"
     console.log(queryURL)
     $.ajax({
         url: queryURL,
