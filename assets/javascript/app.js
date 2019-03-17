@@ -1,4 +1,4 @@
-var gifs = ["cats", "dogs", "bacon", "chuck norris", "aliens"]
+var gifs = ["cats", "dogs", "bacon", "pies", "fun"]
 
 function displayGif() {
     $("#gifs-here").empty()

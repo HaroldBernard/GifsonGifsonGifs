@@ -37,9 +37,9 @@ color: white;
 }
 @keyframes example {
     0% {background:red; right:0px; top:0px;}
-    25% {background:red; right:92%; top:0px;}
+    25% {background:red; right:94%; top:0px;}
     50% {background:red; right:0px; top:0px;}
-    75% {background:red; right:92%; top:0px;}
+    75% {background:red; right:94%; top:0px;}
     100% {background:red; right:0px; top:0px;}
   }
 img.mover {
@@ -49,6 +49,7 @@ img.mover {
     width: 86px;
     height: 86px;
     position: absolute;
+    margin: 0px;
 }
 #user-buttons {
     background-color: black
@@ -60,28 +61,36 @@ img.mover {
 @media screen and (max-width: 980px) {
     @keyframes example {
         0% {background:red; right:0%; top:0%;}
-        25% {background:red; right:88%; top:0%;}
+        25% {background:red; right:91%; top:0%;}
         50% {background:red; right:0%; top:0%;}
-        75% {background:red; right:88%; top:0%;}
+        75% {background:red; right:91%; top:0%;}
         100% {background:red; right:0%; top:0%;}
       }
 }
 
 @media screen and (max-width: 767px) {
     @keyframes example {
-        0% {background:red; right:0%; top:13%;}
-        25% {background:red; right:85%; top:13%;}
-        50% {background:red; right:0%; top:13%;}
-        75% {background:red; right:85%; top:13%;}
-        100% {background:red; right:0%; top:13%;}
+        0% {background:red; right:0%; top:16%;}
+        25% {background:red; right:89%; top:16%;}
+        50% {background:red; right:0%; top:16%;}
+        75% {background:red; right:89%; top:16%;}
+        100% {background:red; right:0%; top:16%;}
       }
 }
 @media screen and (max-width: 640px) {
     @keyframes example {
-        0% {background:red; right:0%; top:13%;}
-        25% {background:red; right:72%; top:13%;}
-        50% {background:red; right:0%; top:13%;}
-        75% {background:red; right:72%; top:13%;}
-        100% {background:red; right:0%; top:13%;}
+        0% {background:red; right:0%; top:16%;}
+        25% {background:red; right:87%; top:16%;}
+        50% {background:red; right:0%; top:16%;}
+        75% {background:red; right:87%; top:16%;}
+        100% {background:red; right:0%; top:16%;}
       }
 }
+@media screen and (max-width: 368px) {
+    @keyframes example {
+        0% {background:red; right:0%; top:31%;}
+        25% {background:red; right:76%; top:31%;}
+        50% {background:red; right:0%; top:31%;}
+        75% {background:red; right:76%; top:31%;}
+        100% {background:red; right:0%; top:31%;}
+      }
