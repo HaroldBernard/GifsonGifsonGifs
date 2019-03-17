@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+}
+.row {
+    margin: auto;
+}
+img {
+    margin: 0px 12px 12px 12px;
+    width: 250px;
+    height: 250px;
+}
+.gif-button{
+    margin: 12px 12px 12px 6px;
+}
+div.holder {
+float: left;
+}
+#form-here {
+height: 200px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: black;
+color: white;
+z-index: -1;
+}
+#gifs-here {
+    padding: 0px;
+    background-image: url(../images/wizard.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#user-input {
+    width: 120px;
+}
+.rating {
+    margin: 0px 12px 0px 12px;
+}
+@keyframes example {
+    0% {background:red; right:0px; top:0px;}
+    25% {background:red; right:92%; top:0px;}
+    50% {background:red; right:0px; top:0px;}
+    75% {background:red; right:92%; top:0px;}
+    100% {background:red; right:0px; top:0px;}
+  }
+img.mover {
+    animation-name: example;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    width: 86px;
+    height: 86px;
+    position: absolute;
+}
+#user-buttons {
+    background-color: black
+}
+.clearText{
+    display: flex
+}
+
+@media screen and (max-width: 980px) {
+    @keyframes example {
+        0% {background:red; right:0%; top:0%;}
+        25% {background:red; right:88%; top:0%;}
+        50% {background:red; right:0%; top:0%;}
+        75% {background:red; right:88%; top:0%;}
+        100% {background:red; right:0%; top:0%;}
+      }
+}
+
+@media screen and (max-width: 767px) {
+    @keyframes example {
+        0% {background:red; right:0%; top:13%;}
+        25% {background:red; right:85%; top:13%;}
+        50% {background:red; right:0%; top:13%;}
+        75% {background:red; right:85%; top:13%;}
+        100% {background:red; right:0%; top:13%;}
+      }
+}
+@media screen and (max-width: 640px) {
+    @keyframes example {
+        0% {background:red; right:0%; top:13%;}
+        25% {background:red; right:72%; top:13%;}
+        50% {background:red; right:0%; top:13%;}
+        75% {background:red; right:72%; top:13%;}
+        100% {background:red; right:0%; top:13%;}
+      }
+}
