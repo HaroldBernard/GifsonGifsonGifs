@@ -66,32 +66,40 @@ img.mover {
         50% {background:red; right:0%; top:0%;}
         75% {background:red; right:91%; top:0%;}
         100% {background:red; right:0%; top:0%;}
-      }
+    }
 }
 
 @media screen and (max-width: 767px) {
     @keyframes example {
-        0% {background:red; right:0%; top:16%;}
-        25% {background:red; right:89%; top:16%;}
-        50% {background:red; right:0%; top:16%;}
-        75% {background:red; right:89%; top:16%;}
-        100% {background:red; right:0%; top:16%;}
-      }
+        0% {background:red; right:0%; top:13%;}
+        25% {background:red; right:89%; top:13%;}
+        50% {background:red; right:0%; top:13%;}
+        75% {background:red; right:89%; top:13%;}
+        100% {background:red; right:0%; top:13%;}
+    }
 }
 @media screen and (max-width: 640px) {
     @keyframes example {
-        0% {background:red; right:0%; top:16%;}
-        25% {background:red; right:87%; top:16%;}
-        50% {background:red; right:0%; top:16%;}
-        75% {background:red; right:87%; top:16%;}
-        100% {background:red; right:0%; top:16%;}
-      }
+        0% {background:red; right:0%; top:13%;}
+        25% {background:red; right:87%; top:13%;}
+        50% {background:red; right:0%; top:13%;}
+        75% {background:red; right:87%; top:13%;}
+        100% {background:red; right:0%; top:13%;}
+    }
 }
 @media screen and (max-width: 368px) {
     @keyframes example {
-        0% {background:red; right:0%; top:31%;}
-        25% {background:red; right:76%; top:31%;}
-        50% {background:red; right:0%; top:31%;}
-        75% {background:red; right:76%; top:31%;}
-        100% {background:red; right:0%; top:31%;}
-      }
+        0% {background:red; right:0%; top:8%;}
+        25% {background:red; right:76%; top:8%;}
+        50% {background:red; right:0%; top:8%;}
+        75% {background:red; right:76%; top:8%;}
+        100% {background:red; right:0%; top:8%;}
+    }
+    .container {
+        font-size: 48px;
+    } 
+    img.mover {
+        width: 65px;
+        height: 65px;
+    }  
+}
