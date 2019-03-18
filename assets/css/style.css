@@ -16,7 +16,6 @@ div.holder {
 float: left;
 }
 #form-here {
-height: 200px;
 background-repeat: no-repeat;
 background-position: center;
 background-color: black;
@@ -31,7 +30,7 @@ color: white;
     background-size: cover;
 }
 #user-input {
-    width: 120px;
+    width: 100%;
     overflow: hidden;
 }
 .rating {
