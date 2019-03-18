@@ -24,6 +24,7 @@ color: white;
 }
 #gifs-here {
     padding: 0px;
+    overflow: auto;
     background-image: url(../images/wizard.gif);
     background-repeat: no-repeat;
     background-position: center;
