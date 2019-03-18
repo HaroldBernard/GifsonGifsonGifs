@@ -32,6 +32,7 @@ color: white;
 }
 #user-input {
     width: 120px;
+    overflow: hidden;
 }
 .rating {
     margin: 0px 12px 0px 12px;
