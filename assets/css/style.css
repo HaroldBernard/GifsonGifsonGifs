@@ -6,7 +6,7 @@ body, html {
 }
 img {
     margin: 0px 12px 12px 12px;
-    width: 250px;
+    width: 284px;
     height: 250px;
 }
 .gif-button{
@@ -102,4 +102,9 @@ img.mover {
         width: 65px;
         height: 65px;
     }  
+    img {
+        margin: 0px 12px 12px 12px;
+        width: 100%;
+        height: 200px;
+    }
 }
