@@ -87,12 +87,12 @@ img.mover {
         100% {background:red; right:0%; top:13%;}
     }
 }
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 400px) {
     @keyframes example {
         0% {background:red; right:0%; top:8%;}
-        25% {background:red; right:76%; top:8%;}
+        25% {background:red; right:83%; top:8%;}
         50% {background:red; right:0%; top:8%;}
-        75% {background:red; right:76%; top:8%;}
+        75% {background:red; right:83%; top:8%;}
         100% {background:red; right:0%; top:8%;}
     }
     .container {
